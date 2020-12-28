@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400&display=swap');
+
+body {
+    /* background: rgba(253, 253, 236, 0.180) !important; */
+    background: rgba(253, 253, 236, 0.055) !important;
+}
+body button {
+    outline: none !important;
+}
+.p-header {
+    margin-top: 0.4em !important;
+    margin-bottom: 0.8em !important;
+    /* color: rgb(37, 190, 157) !important; */
+    color: rgb(0, 153, 153) !important;
+    font-family: 'Nunito', sans-serif !important;
+    font-size: 1.2em !important;
+    letter-spacing: 0.06em;
+    transition: 0.3s ease-in-out;
+}
+.p-description {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 1.08em !important;
+    margin-bottom: 0.8em;
+}
+
+.p-brand{
+    font-size: 1.8em !important;
+    color: rgba(4, 138, 120, 0.979) !important;
+    font-family: 'Kanit', sans-serif !important;
+    letter-spacing: 0.01em !important;
+    box-shadow: 2px 4px 4px 2px rgba(216, 216, 216, 0.13) !important;
+    padding: 0.4em;
+    border-radius: 0.8em !important;
+}
+.p-hover-item:hover {
+    background: none !important;
+}
+
+
+.p-grid {
+    background-color: rgba(95, 241, 151, 0.042) !important;
+    box-shadow: 2px 4px 4px 2px rgba(204, 209, 208, 0.192) !important;
+    background-image: repeating-linear-gradient(rgba(8, 168, 115, 0.247), rgba(255, 255, 0, 0));
+    background-blend-mode: screen;
+    border-radius: 3px !important;
+}
+
+
+.p-item {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.p-item:hover {
+    background-color: rgba(236, 235, 235, 0.562) !important;
+}
+.p-image {
+    transition: 0.3s ease-in-out;
+}
+.p-item:hover .p-image {
+    transform: scale(1.3) !important;
+}
+.p-item:hover .p-header {
+    color: rgb(6, 138, 138) !important;
+    transform: translateX(10px) !important;
+    transition: 0.3s ease-in-out;
+}
+
+
+.p-h-recipie {
+    color: rgb(1, 135, 139) !important;
+    letter-spacing: 0.025em;
+    font-family: 'Ubuntu', sans-serif !important;
+    border: 1px solid rgba(3, 131, 148, 0.37) !important;
+    border-radius: 20px !important;
+    margin-left: 0.5em !important;
+}
+
+
+
+.p-logo {
+    animation: motion 0.8s infinite alternate ease-in-out;
+}
+@keyframes motion {
+    from {
+        transform: rotate(6deg);
+    }
+    to {
+        transform: rotate(-6deg);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .p-brand {
+        font-size: 1.3em !important;
+    }
+    .p-h-link-design {
+        padding: 8px;
+        font-size: 0.8em !important;
+    }
+  }
+
+  /* ---------------Cart---------------------- */
+
+  .p-card {
+      box-shadow: 2px 4px 4px 2px rgba(115, 167, 190, 0.137) !important;
+      font-family: 'Comfortaa' sans-serif !important;
+      margin-top: 2em !important;
+      background-color: rgba(237, 245, 252, 0.247) !important;
+  }
+  .p-card-header {
+      color: rgb(41, 177, 177) !important;
+      font-family: 'Nunito', sans-serif !important;
+  }
+  .p-card-inner {
+      color: rgb(124, 126, 126) !important;
+  }
+  .p-title-text h3{
+      color: rgb(121, 121, 121) !important;
+      border-bottom: 1px solid rgba(223, 223, 223, 0.450);
+      padding-bottom: 8px;
+      opacity: 0.9;
+  }
+  .p-title-text {
+      background: linear-gradient(rgba(245, 245, 245, 0.315), rgba(186, 240, 227, 0.267)) !important;
+      padding: 1em !important;
+      border-radius: 1em !important;
+  }
+  
+
+  /* --------------end of cart-------------------- */
+
+  /* --------------Recipie & cart Form-------------- */
+
+  .p-form-input {
+      border: 1px solid rgba(2, 131, 131, 0.137) !important;
+      background: rgba(183, 244, 255, 0.034) !important;
+      color: rgb(69, 70, 70) !important;
+      font-family: 'ubuntu' sans-serif !important;
+      margin-bottom: 0.5em !important;
+  }
+  .p-form-input:focus {
+    border: 1px solid rgb(3, 161, 161) !important;
+  }
+  .p-form-label {
+      color: rgb(9, 116, 116) !important;
+      font-family: 'nunito', sans-serif;
+      letter-spacing: 0.08em;
+      font-size: 0.95em !important;
+      opacity: 0.85 !important;
+      margin-bottom: 0.3em !important;
+  }
+  .p-form-create-ingredients {
+      color: rgb(112, 110, 110) !important;
+  }
+  .p-form-create-ingredients .p-icon-dropdown {
+      animation: blink 0.4s infinite alternate-reverse;
+  }
+  @keyframes blink {
+      from {
+          transform: translateX(-0.8em);
+      }
+      to {
+          transform: translateX(0.4em);
+      }
+  }
+  .p-form-create-header {
+      color: rgb(100, 98, 98) !important;
+      font-family: 'nunito', sans-serif;
+      border-radius: 0.3em !important;
+      padding: 1em 0.8em !important;
+      background: linear-gradient(rgba(194, 209, 109, 0.322), rgba(230, 240, 186, 0.288)) !important;
+  }
+
+  .p-animated-icon {
+      opacity: 0.4 !important;
+      animation: grow 0.5s infinite alternate;
+      transition: ease-in-out;
+  }
+
+  @keyframes grow {
+      from {
+         transform: translateX(-0.8em);
+      }
+      to {
+          transform: translateX(0.8em);
+      }
+  }
+
+  .p-cart-edit-header {
+      color: rgb(133, 129, 131) !important;
+      font-family: nunito !important;
+      letter-spacing: 0.02em !important;
+  }
+  .p-cart-body {
+    background: linear-gradient(rgba(238, 250, 255, 0.199), rgba(186, 227, 240, 0.164)) !important;
+    padding: 2em 2.2em !important;
+    border-radius: 0.3em !important;
+  }
+
+  /* -----------end of recpie & cart form----------- */
+
+  /* ---------edit recipie----------- */
+
+  .p-edit-recipie-container {
+    background: linear-gradient(rgba(247, 242, 196, 0.199), rgba(186, 227, 240, 0.089)) !important;
+    padding: 0 2em !important;
+    border-radius: 0.5em !important;
+  }
+  .p-edit-recipie-image {
+    width:150px; height: 150px; padding: 8px; opacity: 0.9; margin-top: -0.1em; margin-left: -0.1em; border-radius: 50%;
+    animation: rotate 0.5s linear;
+  }
+  @keyframes rotate {
+      
+      to {
+          transform: rotate(0deg);
+      }
+      from {
+          transform: rotate(-60deg);
+      }
+  }
+
+  /* -----end of edit recipie-------- */
+
+  /* --------------recipie show----------------- */
+
+  .p-show-button-del {
+      color: rgba(158, 0, 8, 0.596) !important;
+      background: none !important;
+      border: 1px solid rgba(250, 61, 61, 0.329) !important;
+      border-radius: 2em !important;
+  }
+  .p-show-button-del:hover {
+    color: rgba(207, 4, 14, 0.829) !important;
+  }
+  .p-show-button-edit {
+    color: rgba(0, 158, 158, 0.733) !important;
+    background: none !important;
+    border: 1px solid rgba(0, 134, 134, 0.329) !important;
+    border-radius: 2em !important;
+    color: rgba(128, 94, 0, 0.349);
+  }
+  .p-show-button-edit:hover {
+      color: rgb(0, 128, 111) !important;
+  }
+
+  .p-show-button-add {
+    margin-top: 0.5em !important;
+    border-radius: 2em !important;
+ }
+
+  /* -----end of recipie show------------------- */
+  .p-show-dropdown-icon {
+    animation: blink 0.3s infinite alternate-reverse;
+  }
+
+  .false {
+      display:  none !important;
+  }
