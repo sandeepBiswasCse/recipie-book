@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/recipie-book/static/css/main.e8143b2a.chunk.css",
+    "main.js": "/recipie-book/static/js/main.3c14afb2.chunk.js",
+    "main.js.map": "/recipie-book/static/js/main.3c14afb2.chunk.js.map",
+    "runtime-main.js": "/recipie-book/static/js/runtime-main.11aca15c.js",
+    "runtime-main.js.map": "/recipie-book/static/js/runtime-main.11aca15c.js.map",
+    "static/js/2.3d662ef3.chunk.js": "/recipie-book/static/js/2.3d662ef3.chunk.js",
+    "static/js/2.3d662ef3.chunk.js.map": "/recipie-book/static/js/2.3d662ef3.chunk.js.map",
+    "index.html": "/recipie-book/index.html",
+    "static/css/main.e8143b2a.chunk.css.map": "/recipie-book/static/css/main.e8143b2a.chunk.css.map",
+    "static/js/2.3d662ef3.chunk.js.LICENSE.txt": "/recipie-book/static/js/2.3d662ef3.chunk.js.LICENSE.txt",
+    "static/media/emptyCart.3b0d9b54.png": "/recipie-book/static/media/emptyCart.3b0d9b54.png",
+    "static/media/logoStd.c03da128.png": "/recipie-book/static/media/logoStd.c03da128.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11aca15c.js",
+    "static/js/2.3d662ef3.chunk.js",
+    "static/css/main.e8143b2a.chunk.css",
+    "static/js/main.3c14afb2.chunk.js"
+  ]
+}
